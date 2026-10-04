@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build Outputs
+dist/
+client/dist/
+server/dist/
+
+# SQLite Database & Telemetry Data
+*.sqlite
+gateway.sqlite
+*.log
+
+# Environment & Sensitive Keys
+.env
+.env.local
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
